@@ -1,0 +1,16 @@
+.instructions {
+  display: flex;
+  flex-direction: column;
+}
+.instructions p {
+  margin: 1rem auto;
+  padding: 0 1rem;
+  max-width: 600px;
+  width: 95%;
+  text-align: justify;
+}
+.instructions img {
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+}
