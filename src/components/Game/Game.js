@@ -39,7 +39,7 @@ const Game = ({ location }) => {
     let tileId = tile.element.id;
     // console.log('SET TILE CLASS', tileId, x, y, 'orderindex', user?.orderIndex);
 
-    if (x >= 525 && x < 1225 && y >= 443 && y < 1143 && user) {
+    if (x >= 490 && x < 1225 && y >= 443 && y < 1143 && user) {
       console.log("in no mans land", x, y, user)
       if (rotate && rotate > 0) {
         className = 'item rotate-' + rotate;
